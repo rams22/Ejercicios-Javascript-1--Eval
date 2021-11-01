@@ -11,3 +11,10 @@
 *
 *
 ***************************************************************************************************************/
+nombre= prompt('cual es tu nombre?');
+window.alert(`Bienvenido ${nombre} `);
+
+/*
+console.log(` te llamas ${nombre}`)
+document.write(`welcome ${nombre}`)
+*/

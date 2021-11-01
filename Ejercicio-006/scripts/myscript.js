@@ -15,3 +15,17 @@
 *
 ***************************************************************************************************************/
 
+let edad;
+edad=prompt(`ingresa tu edad`)
+if (edad<30){
+        console.log(`Ponte a currar vago`)
+    }
+    if (edad>=30&&edad<=64){
+        console.log(`Que hanas de jubilarme`)
+    }
+    if (edad>64){
+        console.log(`descansa abuelete`)
+    }else{
+    if (edad>120){
+        console.log(`menudo trolas es imposible menos de 0`)
+    }}

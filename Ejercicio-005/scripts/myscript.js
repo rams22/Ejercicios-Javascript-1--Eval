@@ -16,3 +16,15 @@
 *             ¿Cómo podemos limitar el número de decimales que se mostrarán?
 *
 ***************************************************************************************************************/
+let num1,num2;
+num1= parseInt(prompt(`introduce un numero`)); //puse el parse int porque sino me lo concatenaba, 
+num2= parseInt(prompt(`introduce otro numero`));
+document.write(`la suma de ${num1}+${num2} es  -> `,num1+num2);//duda por que me concatena? como puedo hacerlo sin el parse int? o lo correcto es espicificar si es entero?
+document.write(`<br>la resta de ${num1}-${num2} es -> `,num1-num2);
+document.write(`<br>la multi de ${num1}x${num2} es -> `,num1*num2);
+document.write(`<br>la divi de ${num1}/${num2} es -> `,num1/num2);
+
+
+
+
+//duda

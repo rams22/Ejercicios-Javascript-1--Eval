@@ -11,3 +11,6 @@
 *
 *
 ***************************************************************************************************************/
+nombre=prompt(`Cual es tu nombre?`)
+edad=prompt(`cual es tu edad?`)
+console.log(`Te llamas ${nombre} y tienes ${edad}`)

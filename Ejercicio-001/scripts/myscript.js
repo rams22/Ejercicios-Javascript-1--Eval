@@ -12,3 +12,7 @@
 *
 *
 ***************************************************************************************************************/
+var miVariable='hola mundo'; 
+ 
+console.log(miVariable);
+document.write(miVariable)

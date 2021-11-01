@@ -12,3 +12,12 @@
 *   Notas: La salida finalizará en n o n-1 dependiendo de si n es par o impar
 *
 ***************************************************************************************************************/
+let numero
+let i
+numero= prompt('Escribe un numero')
+for(i=0;i<numero){
+    if (i%2=0){
+        document.write(i,',')
+    }
+}
+//ayudaaaaaa
