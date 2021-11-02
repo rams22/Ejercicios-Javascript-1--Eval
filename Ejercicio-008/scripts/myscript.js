@@ -15,9 +15,9 @@
 let numero
 let i
 numero= prompt('Escribe un numero')
-for(i=0;i<numero){
-    if (i%2=0){
-        document.write(i,',')
+for(i=0;i<numero;i++){
+    if (i%2==0){
+        document.write(`${i} ,`)
     }
 }
 //ayudaaaaaa

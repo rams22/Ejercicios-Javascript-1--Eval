@@ -14,3 +14,15 @@
 *   Nota: Formatea la salida en el documento HTML empleando *         una tabla con 4 columnas y nueve filas
 *
 ***************************************************************************************************************/
+
+let num,i;
+i=0;
+num=prompt(`Introduce un numero`)
+
+for(i=1;i>=1&&i<=9;i++){
+    
+    document.write(`${num}*${i}= ${i*num}<br>`)
+    console.log(`${num}*${i}= ${i*num}`)
+    
+
+}
