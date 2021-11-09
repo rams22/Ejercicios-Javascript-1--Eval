@@ -11,3 +11,16 @@
 *
 *
 ***************************************************************************************************************/
+
+function compruebaPalindromo(cadenita){
+
+    const NuevaCadenita = cadenita.replaceAll(` `, "").toLowerCase()  //con replace solo me cambia el primero y con replace all me pilla todos
+    const cadenitaAlReves = NuevaCadenita.split(``).reverse().join(``)
+
+    return NuevaCadenita === cadenitaAlReves ? `es palindromo`:`no es palindromo`
+
+}
+
+let frase=prompt('Escribe la frase a evaluar')
+document.write(compruebaPalindromo(frase))
+

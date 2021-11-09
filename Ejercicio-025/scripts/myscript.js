@@ -10,3 +10,32 @@
 *
 *
 ***************************************************************************************************************/
+function hastaQueSea0(num){
+    let array=[]
+    do{        
+        num=prompt(`teclea un numero`)
+        if (num!=0){
+            array.push(num)
+        }
+    }while(num!=0)
+    return array
+    
+        
+}
+ let numero= hastaQueSea0()
+ 
+
+
+let guardaNumero=array(0) 
+for (let i=1;i<array.length;i++){
+    document.write(array(i))
+    document.write(' ')
+    if (guardaNumero>array(i)){
+
+        guardaNumero=array(i)
+    }
+    
+}
+document.write(`El numero mas grande es: ${guardaNumero}`)
+
+//**********************************************duda***************************************

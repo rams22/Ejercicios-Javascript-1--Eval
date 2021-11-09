@@ -16,3 +16,17 @@
 *
 *
 ***************************************************************************************************************/
+
+//1) Solicita un entero y un contador i
+
+let entero=prompt('escribe un numero')
+
+//2) 
+for(let i=0;i<=entero;i++){
+
+    for(let j=0;j<i;j++){
+        document.write(i+" ")
+    }
+    document.write("<br>")
+    
+}

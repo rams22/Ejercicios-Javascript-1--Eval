@@ -10,3 +10,14 @@
 *
 *
 ***************************************************************************************************************/
+
+let num=prompt(`escribe el numero`)
+let array=[]
+let acumulado=1,anterior=0; //0+1=1 1+1=2 2+1=3 3+2=5 5+3
+for(let i=1; i<=num;i++){
+    anterior=acumulado
+    acumulado=acumulado+anterior
+    document.write(acumulado+',')
+
+
+}

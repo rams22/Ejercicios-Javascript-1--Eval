@@ -17,3 +17,17 @@
 *
 *
 ***************************************************************************************************************/
+let num;
+num=prompt(`Introduce la nota`)
+
+if (num>=90&&num<=100){
+    console.log(`La nota es A`)
+} if (num>=80&&num<90){
+    console.log(`La nota es b`)
+} if (num>=70&&num<80){
+    console.log(`La nota es c`)
+} if (num>=60&&num<70){
+    console.log(`La nota es b`)
+} if (num>=0&&num<60){
+    console.log(`La nota es f`)
+};
